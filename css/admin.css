@@ -1,0 +1,256 @@
+body{
+    background-color: #212121;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #182631;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 350px;
+    height: 100%;
+}
+
+#logo img{
+    width: 300px;
+    height: 100%;
+    object-fit: contain;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: '', sans-serif;
+}
+
+.menu-lateral {
+    background-color: white;
+    border-radius: 5px;
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    width: 200px;
+    height: 100%;
+}
+
+.menu-lateral ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 30px;
+    color: #212121;
+}
+
+.nav-item i:hover{
+    opacity: 0.8;
+}
+
+.nav-link i{
+    color: #212121;
+}
+
+.login-button p {
+    border: none;
+    color: white;
+    background-color: gray;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 0.8;
+    font-family: Fty;
+}
+
+.login-button a:hover {
+    opacity: 0.8;
+}
+    /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Admin style*/
+
+@font-face {
+    font-family: 'High_Speed';
+    src: url('../fonts/high_speed-webfont.woff') format('woff1'),
+         url('../fonts/high_speed-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fty';
+    src: url('../fonts/FtySkorzhenNcv-Yo02.ttf') format('truetype'),
+         url('../fonts/FtySkorzhenNcv-DpeE.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.admin-button button {
+    border: none;
+    color: white;
+    background-color: #182631;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.admin-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    font-family: Cambria;
+    font-size: larger;
+    width: 50%;
+}
+
+.upper-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 560px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0,25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: #EAEEED;
+    border: 7px solid #182631;
+}
+
+h2{
+    margin: 1.5rem 0 1rem 0;
+    text-align: center;
+    font-family: High_Speed;
+    font-size: x-large;
+}
+
+button{
+    padding: 12px 48px;
+    border-radius: 50px;
+    color: #EAEEED;
+    margin-top: 1rem;
+    cursor: pointer;
+    outline: none;
+    border-width: 0;
+    background-color: #182631;
+    width: 250px;
+    font-family: Fty;
+    font-size: medium;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+
+.background{
+    width: 50%;    
+}
+
+.background img{
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 0px 3px; 
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.wallpaper{
+    display: flex;
+}
+
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.send-confirm button:hover{
+    opacity: 0.8;
+}
+  
+input[type="file"] {
+    display: none;
+}
+
+.upload{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: gray;
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+.upload:hover{
+    opacity: 0.8;
+}
+.upload i{
+    color:#EAEEED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.input-form{
+    margin: 5px;
+}
+
+.input-form input {
+    display: flex;
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+    padding: 12px 24px;
+    width: 250px;
+    background-color: gray;
+    transition: opacity 0.2s; 
+    margin-top: 3px;
+}
+
+.input-form label{
+    padding-left: 3px;
+    font-family: Fty;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.custom-file-upload{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

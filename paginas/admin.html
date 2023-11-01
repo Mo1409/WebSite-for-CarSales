@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../fonts/fontawesome-free-web/css/all.css">
+        <link rel="stylesheet" href="../css/admin.css">
+        <script src="../js/admin.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
+        <link rel="Website Icon" type="png" href="../imagens/turbohublogofinal.jpg">
+        <title>TurboHub</title>
+    </head>
+    <body>
+        <header>
+            <div class="barra-logo" id="logo">
+                <a href="../index.html"><img src="../imagens/TurboHub.jpg" alt="logo"></a>
+            </div>
+            <nav class="menu-lateral">
+              <ul>
+                <li class="nav-item"><a href="../index.html" class="nav-link"><i class="fa-solid fa-house"></i></a></li>
+                <li class="nav-item"><a href="./delete.html" class="nav-link"><i class="fa-solid fa-trash-alt"></i></a></li>
+              </ul>
+              <div class="login-button">
+                <p>Logado</p>
+              </div> 
+            </nav>
+          </header>
+
+    <div class="wallpaper">
+        <div class="background"><img src="../imagens/admin.jpg"></div>
+        <div class="admin">
+            <form id="carro" class="admin-form">
+                <div class="upper-form">
+                    <h2>Cadastrar produto</h2>  
+                    <form>
+                        <div class="upload">
+                            <label for="file-upload" class="custom-file-upload"><i class="fa-solid fa-upload"></i></label>
+                            <input name="file-upload" class="file-upload" id="file-upload" type="file"/>
+                        </div>  
+                        <div class="input-form">
+                            <i class="fa-solid fa-shield"></i>
+                            <label>Marca do veiculo: </label>
+                            <input type="text" name="marca" id="marca">
+                        </div>
+                        <div class="input-form">
+                            <i class="fa-solid fa-car-side"></i>
+                            <label>Modelo: </label><br>
+                            <input type="text" name="modelo" id="modelo"> 
+                        </div>
+                        <div class="input-form">
+                            <i class="fa-solid fa-calendar"></i>
+                            <label>Ano: </label><br>
+                            <input type="number" name="ano" id="ano">
+                        </div>
+                        <div class="input-form">
+                            <i class="fa-solid fa-usd"></i>
+                            <label>Valor: </label><br>
+                            <input type="number" name="valor" id="valor">
+                        </div>
+                    
+                        <div class="admin-confirm">
+                            <button type="button" onclick="upload()">Cadastrar</button>
+                        </div>
+                </form>
+                </div>
+            </form>
+            
+    
+        </div>
+    </div> 
+    </body>
+</html>

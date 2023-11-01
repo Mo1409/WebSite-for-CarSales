@@ -1,0 +1,208 @@
+body{
+    background-color: #212121;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #182631;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.logo{
+    width: 350px;
+    height: 100%;
+}
+
+.logo img{
+    width: 300px;
+    height: 100%;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: '', sans-serif;
+}
+
+.menu-lateral {
+    background-color: white;
+    border-radius: 5px;
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    width: 200px;
+    height: 100%;
+}
+
+.menu-lateral ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 30px;
+    color: #212121;
+}
+
+.nav-item i:hover{
+    opacity: 0.8;
+}
+
+.nav-link i{
+    color: #212121;
+}
+
+.barra-search{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-search ::placeholder {
+    font-family: Fty;
+}
+
+.searchbar{
+    border-radius: 50px;
+    width: 100%;
+    height: 25px;
+    border: 3px solid white;
+    padding: 12px 24px;
+    outline: none;
+}
+
+.login-button a {
+    border: none;
+    color: white;
+    background-color: #182631;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Fty;
+}
+
+.login-button a:hover {
+    opacity: 0.8;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Products style*/
+
+@font-face {
+    font-family: 'High_Speed';
+    src: url('../fonts/high_speed-webfont.woff') format('woff1'),
+         url('../fonts/high_speed-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fty';
+    src: url('../fonts/FtySkorzhenNcv-Yo02.ttf') format('truetype'),
+         url('../fonts/FtySkorzhenNcv-DpeE.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.titulo {
+    font-size: 5rem;
+    font-family: High_Speed;
+    margin: 70px;
+    -webkit-text-stroke: 1px #fff; 
+    color: #000; 
+    text-align: center;
+}
+
+.titulo i{
+    color: white;
+    -webkit-text-stroke: 1px #fff; 
+    color: #000; 
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+.card-product{
+    border: 3px solid white;
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    margin: 5px;
+    display: flex;
+    font-size: 7rem;
+    flex-direction: column;
+    border-radius: 15px;
+    min-width: 20%;
+    min-height: 500px;
+    transition: 0.5s;
+}
+
+.card-product:hover{
+    transform: scale(1.05);
+}
+
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.desc{
+    width: 100%;
+    height: 35%;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Fty;
+}
+
+.cart{
+    width: 100%;
+    height: 15%;
+    color: white;
+    font-size: large;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 0px 0px 12px 12px;
+    font-family: Fty;
+}
+
+.cart:hover{
+    opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}

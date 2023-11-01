@@ -1,0 +1,219 @@
+body{
+    background-color: #212121;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #182631;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 350px;
+    height: 100%;
+}
+
+
+#logo img{
+    width: 300px;
+    height: 100%;
+    object-fit: contain;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: '', sans-serif;
+}
+
+.menu-lateral {
+    background-color: white;
+    border-radius: 5px;
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    width: 200px;
+    height: 100%;
+}
+
+.menu-lateral ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 30px;
+    color: #212121;
+}
+
+.nav-item i:hover{
+    opacity: 0.8;
+}
+
+.nav-link i{
+    color: #212121;
+}
+
+.login-button a {
+    border: none;
+    color: white;
+    background-color: #182631;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Fty';
+}
+
+.login-button a:hover {
+    opacity: 0.8;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+/* Payment style*/
+
+@font-face {
+    font-family: 'High_Speed';
+    src: url('../fonts/high_speed-webfont.woff') format('woff1'),
+         url('../fonts/high_speed-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fty';
+    src: url('../fonts/FtySkorzhenNcv-Yo02.ttf') format('truetype'),
+         url('../fonts/FtySkorzhenNcv-DpeE.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.background{
+    height: 100%-50px;
+    width: 50%;
+}
+
+.background img{
+    width: 100%;
+    padding: 0px 3px; 
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.wallpaper{
+    display: flex;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    font-family: Cambria;
+    font-size: larger;
+    width: 50%;
+}
+
+.card{
+    background-color: #fff;
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    font-family: High_Speed;
+}
+
+form{
+    width: 100%;
+}
+
+.upper-form{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Fty;
+}
+
+.upper-form select{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: gray;
+    font-family: Fty;
+    font-size: medium;
+}
+
+.upper-form select:focus{
+    opacity: 0.8;
+}
+
+option{
+    background-color: #fff;
+    font-size: medium;
+}
+
+.cartao{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Fty;
+}
+
+.cartao h2{
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+.qrcode{
+    width: 300px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrcode img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}

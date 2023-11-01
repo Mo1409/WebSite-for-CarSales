@@ -1,0 +1,65 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../fonts/fontawesome-free-web/css/all.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
+    <script src="../js/cadastro.js"></script>
+    <link rel="Website Icon" type="png" href="../imagens/turbohublogofinal.jpg">
+    <title>TurboHub</title>
+</head>
+<body>
+    <header>
+        <div class="barra-logo" id="logo">
+            <a href="../index.html"><img src="../imagens/TurboHub.jpg" alt="logo"></a>
+        </div>
+        <nav class="menu-lateral">
+          <ul>
+            <li class="nav-item"><a href="../index.html" class="nav-link"><i class="fa-solid fa-house"></i></a></li>
+            <li class="nav-item"><a href="carrinho.html" class="nav-link"><i class="fa-solid fa-shopping-cart"></i></a></li>
+
+          </ul>
+          <div class="login-button">
+            <a href="../paginas/login.html" class="login-button">Entrar</a>
+          </div> 
+        </nav>
+      </header>
+    
+    <div class="wallpaper">
+      <div class="background"><img src="../imagens/cadastro.jpg"></div>
+      <div class="cadastro">
+          <form id="cadastroform" class="form">
+              <div class="upper-form">
+                  <h2>Criar conta</h2>  
+                  <form>
+                      <div class="input-form">
+                        <i class="fa-solid fa-user"></i>
+                        <label>Nome: </label>
+                        <input type="text" name="nome" id="nome">
+                      </div>
+                      <div class="input-form">
+                        <i class="fa-solid fa-calendar"></i>
+                        <label>Data de nascimento: </label><br>
+                        <input type="date" name="birth_date" id="birth_date"> 
+                      </div>
+                      <div class="input-form">
+                          <i class="fa-solid fa-envelope"></i>
+                          <label>E-mail: </label><br>
+                          <input type="text" name="email" id="email">
+                        </div>
+                      <div class="input-form">
+                          <i class="fa-solid fa-lock"></i>
+                          <label>Senha: </label><br>
+                          <input type="password" name="senha" id="senha">
+                        </div>
+                  
+                      <div class="confirm">
+                        <button type="button" onclick="cadastro()">Cadastrar</button>
+                      </div>
+              </form>
+              </div>
+          </form>
+      </div>
+  </div> 
+</body>
+</html>

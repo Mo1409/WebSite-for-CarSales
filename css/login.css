@@ -1,0 +1,233 @@
+body{
+    background-color: #212121;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #182631;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 350px;
+    height: 100%;
+}
+
+#logo img{
+    width: 300px;
+    height: 100%;
+    object-fit: contain;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: '', sans-serif;
+}
+
+.menu-lateral {
+    background-color: white;
+    border-radius: 5px;
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    width: 200px;
+    height: 100%;
+}
+
+.menu-lateral ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 30px;
+    color: #212121;
+}
+
+.nav-item i:hover{
+    opacity: 0.8;
+}
+
+.nav-link i{
+    color: #212121;
+}
+
+.login-button a {
+    border: none;
+    color: white;
+    background-color: #182631;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Fty;
+}
+
+.login-button a:hover {
+    opacity: 0.8;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Login style*/
+@font-face {
+    font-family: 'High_Speed';
+    src: url('../fonts/high_speed-webfont.woff') format('woff1'),
+         url('../fonts/high_speed-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fty';
+    src: url('../fonts/FtySkorzhenNcv-Yo02.ttf') format('truetype'),
+         url('../fonts/FtySkorzhenNcv-DpeE.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.login-button button {
+    border: none;
+    color: white;
+    background-color: #182631;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    font-family: Cambria;
+    font-size: larger;
+    width: 50%;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0,25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: #EAEEED;
+    border: 7px solid #182631;
+}
+
+h2{
+    margin: 1.5rem 0 2rem 0;
+    text-align: center;
+    font-family: High_Speed;
+    font-size: x-large;
+}
+
+label{
+    padding-left: 16px;
+    opacity: 0.75;
+}
+
+input{
+    display: flex;
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+    margin-top: 8px;
+    padding: 12px 24px;
+    width: 250px;
+    background-color: gray;
+    transition: opacity 0.2s; 
+}
+
+input:focus{
+    opacity: 0.7;
+}
+
+.login-confirm{
+    margin-top: 15px;
+}
+
+.upper-form label{
+    font-family: Fty;
+}
+button{
+    padding: 12px 48px;
+    border-radius: 50px;
+    color: #EAEEED;
+    margin-top: 1rem;
+    cursor: pointer;
+    outline: none;
+    border-width: 0;
+    background-color: #182631;
+    width: 100%;
+    font-family: Fty;
+    font-size: medium;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.bottom-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-family: Fty;
+}
+
+.signup{
+    padding-left: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #03045e;
+}
+
+.signup:hover{
+    opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.background{
+    height: 100%-50px;
+    width: 50%;
+}
+
+.background img{
+    width: 100%;
+    padding: 0px 3px; 
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.wallpaper{
+    display: flex;
+}
+
+
+
+

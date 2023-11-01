@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../fonts/fontawesome-free-web/css/all.css">
+    <link rel="stylesheet" href="../css/delete.css">
+    <link rel="Website Icon" type="png" href="../imagens/turbohublogofinal.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
+    <script defer src="../js/delete.js"></script>
+    <title>TurboHub</title>
+</head>
+<body>
+    <header>
+        <div class="barra-logo" id="logo">
+            <a href="../index.html"><img src="../imagens/TurboHub.jpg" alt="logo"></a>
+        </div>
+        <nav class="menu-lateral">
+          <ul>
+            <li class="nav-item"><a href="../index.html" class="nav-link"><i class="fa-solid fa-house"></i></a></li>
+            <li class="nav-item"><a href="./admin.html" class="nav-link"><i class="fa-solid fa-square-plus"></i></a></li>
+          </ul>
+          <div class="login-button">
+            <p>Logado</p>
+          </div>
+        </nav>
+      </header>
+
+      <div class="wallpaper">
+        <div class="background"><img src="../imagens/delete.jpg"></div>
+        <div class="right">
+        <div class="card">
+            <div class="titulo"><h2>Excluir um Carro</h2></div>
+            <form id="delete">
+                <div class="upper-form">
+                    <div>
+                        <label>Selecione o produto</label>
+                    </div>
+                    <select name="opcao" id="opcao">
+                        <option value="0"> Nenhum selecionado</option>
+                        
+                    </select>
+                </div>
+                <div class="cartao">
+                    <div class="carro-escolhido" id="carro-escolhido">
+
+                        <img src="../imagens/0.jpg" alt="">
+                    </div>
+                    
+                    <div class="bottom-form">
+                        <button type="button" onclick="excluir()">Confirmar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+<body>

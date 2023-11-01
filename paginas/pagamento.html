@@ -1,0 +1,75 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../fonts/fontawesome-free-web/css/all.css">
+    <link rel="stylesheet" href="../css/pagamento.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.32/dist/sweetalert2.all.min.js"></script>
+    <link rel="Website Icon" type="png" href="../imagens/turbohublogofinal.jpg">
+    <script src="../js/pagamento.js"></script>
+    <title>TurboHub</title>
+</head>
+<body>
+    <header>
+        <div class="barra-logo" id="logo">
+            <a href="../index.html"><img src="../imagens/TurboHub.jpg" alt="logo"></a>
+        </div>
+        <nav class="menu-lateral">
+          <ul>
+            <li class="nav-item"><a href="../index.html" class="nav-link"><i class="fa-solid fa-house"></i></a></li>
+            <li class="nav-item"><a href="carrinho.html" class="nav-link"><i class="fa-solid fa-shopping-cart"></i></a></li>
+          </ul>
+          <div class="login-button">
+            <a href="../paginas/login.html" class="login-button">Entrar</a>
+          </div> 
+        </nav>
+      </header>
+
+      <div class="wallpaper">
+        <div class="background"><img src="../imagens/pagamento.jpg"></div>
+        <div class="right">
+        <div class="card">
+            <div class="titulo"><h2>Pagamento</h2></div>
+            <form id="pagamento">
+                <div class="upper-form">
+                    <div>
+                        <i class="fa-solid fa-money-bill"></i>
+                        <label>Selecione a Forma de Pagamento</label>
+                    </div>
+                    <select name="opcao" id="opcao">
+                        <option value="credito">Cartão de Crédito</option>
+                        <option value="debito">Cartão de Débito</option>
+                        <option value="pix">Pix</option>
+                    </select>
+                </div>
+                <div class="cartao">
+                    <h2>Informações do Cartão</h2>
+                    <div class="instrucoes">
+                        <i class="fa-solid fa-user"></i>
+                        <label>Nome do Proprietário</label>
+                    </div>
+                    <input type="text" name="cliente" id="cliente">
+                    <div class="instrucoes">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <label>Numero do Cartão</label>
+                    </div>
+                    <input type="text" name="num-cartao" id="num-cartao">
+                    <div class="instrucoes">
+                        <i class="fa-solid fa-calendar-alt"></i>
+                        <label>Validade</label>
+                    </div>
+                    <input type="date" name="validade" id="validade">
+                    <div class="instrucoes">
+                        <i class="fa-solid fa-key"></i>
+                        <label>CVV</label>
+                    </div>
+                    <input type="number" name="cvv" id="cvv"> 
+                </div>
+                <div class="bottom-form">
+                    <button>Confirmar</button>
+                </div>
+                
+            </form>
+        </div>
+        </div>
+    </div>
+<body>
